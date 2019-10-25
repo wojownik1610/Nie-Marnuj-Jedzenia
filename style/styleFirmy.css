@@ -1,0 +1,33 @@
+.login{
+    position: relative;
+    height: 490px;
+}
+.login__kontener{
+    margin: 90px 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form__linia{
+    height: 60px;
+}
+.login__alertPHP{
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: red;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.firmy__tekst{
+    padding: 100px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bgGreen{ background-color: #77dd77;}

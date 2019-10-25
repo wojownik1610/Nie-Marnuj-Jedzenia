@@ -1,0 +1,88 @@
+.oferty__logo{
+    font-size: 50px;
+    padding: 25px 0;
+    box-sizing: inherit;
+    text-align: center;
+    position: relative;
+    color: antiquewhite;
+    font-weight: 700;
+}
+.oferty__kontener{
+    background-color: #a96cd0;
+}
+.filtr__kontener{
+    background-color: #874ab0;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border: 2px dashed black;
+    padding: 20px 0;
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.filtr__logo{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 20px;;
+}
+.oferty__tabele{
+    padding-bottom: 30px;
+}
+.oferty__tabela{
+    border-radius: 20px;
+    width: 90%;
+    border: 4px solid black;
+    margin: 22px auto 0; 
+    border-spacing: 0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.oferty__cell{
+    padding: 3px;
+    border-left: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
+.oferty__cell--borBott{
+    border-bottom: 2px solid black;
+}
+.oferty__cell:first-child{
+    border-left: 0;
+}
+.oferty__wiersz:last-child>.oferty__cell{
+    border-bottom: 0;
+}
+.oferty__wiersz:first-child>.oferty__cell:nth-child(2){
+    border-left: 0;
+}
+.oferty__tableOpis{
+    border-left: 2px solid black;
+    border-bottom: 0;
+    padding: 7px;
+}
+.oferty__cellNr{
+    text-align: center;
+    width: 15px;
+    padding: 0 5px;
+    border-right: 2px solid black;
+}
+.oferty__tabela--kolor1{ background-color: #FECBA5; }
+.oferty__tabela--kolor2{ background-color: #77DD77; }
+.oferty__tabela--kolor3{ background-color: #779ECB; }
+.oferty__tabela--kolor0{ background-color: #FDFD98; }
+
+.oferty__mailUser{
+    padding: 8px 15px;
+}
+.footer{
+    position: static;
+}
+.bgGreen{ background-color: #64e986;}
+
+.oferty__tekst{
+    text-align: center;
+    padding: 100px 10%;
+    font-size: 25px;
+}

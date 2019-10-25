@@ -1,0 +1,38 @@
+
+.rej{
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.rejestr{
+           width: 98%;
+            height: 740px;
+    background: none;
+    border: none;
+}
+.rejestr__kontener{
+    background-color: #578cb5;
+    border: 4px solid black;
+    padding: 35px 0;
+    max-width: 550px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+        
+.rejestr__logo{
+    text-align: center;
+    padding: 2% 0; 
+    font-size: 30px;
+    background-color: white;
+    border: 3px solid red;
+    color: red;
+    margin-bottom: 2%;
+}
+
+.rejestr__info{
+    background-color: #77dd77;
+    color: black;
+    font-size: 20px;
+  
+  }

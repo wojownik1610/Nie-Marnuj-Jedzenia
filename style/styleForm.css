@@ -1,0 +1,124 @@
+        .form__linia{
+            margin-right: 90px;
+            height: 80px;
+            position: relative;
+        }
+        .form__linia--minWidth{
+            margin-right: 40px;
+            float: right;
+            z-index: 1;
+        }
+
+        .form__etykieta{
+            float: left;
+            width: 340px;
+            text-align: right;
+            margin-top: 3px;
+            font-weight: 700;
+            font-size: 18px;
+            user-select: none;
+        }
+        .form__etykieta--minWidth{
+            width: auto;
+            margin-top: 6px;
+            margin-right: 5px;
+        }
+
+        .form__pole, .form__lista, .form__textarea{
+            padding: 1px 3px;
+            box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+            font-weight: 700;
+            font-size: 15px;
+            margin-top: 3px;
+            border-radius: 10px;
+            background-color: #FCCEA8;
+        }
+        .form__pole{
+            height: 25px;
+            text-align: center;
+        }
+        .form__pole:focus{
+            border: 2px solid #00ff00;
+        }
+        .form__pole--bgGreen{
+            background-color: #8efe97;
+        }
+        .form__pole--bgRed{
+            background-color: #fb9297;
+        }
+
+        .form__przycisk, .form__przycisk2{
+            display: block;
+            margin: 25px auto 0;
+            padding: 5px 20px;
+            border-radius: 30px;
+            background-color:  #5cd65c;
+            color: #888888;
+            border: 2px solid #a9a9a9;
+            cursor: pointer;
+            user-select: none;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
+            transition-duration: 500ms;
+        }
+        .form__przycisk:hover{
+            background-color: #4bc54b;
+            color: #cccccc;
+        }
+        .form__przycisk2{
+             font-size: 22px;
+            padding: 3px 15px;
+            background-color:  #c8b3e8;
+            color: #2a5a38;
+        }
+        .form__przycisk2:hover{
+            background-color:  #a691c6;
+                    color: #cccccc;
+        }
+
+        .form__ikonka{
+            transition-duration: 400ms;
+            position: absolute;
+            left: 350px;
+            font-size: 25px;
+            margin-top: 7px;
+        }
+        .form__dymek{
+            height: 40px;
+            clear: both;
+            color: darkred;
+            font-weight: 700;
+            font-size: 17px;
+        }
+        .form__captcha{
+            position: relative;
+        }
+        .form__captcha> div > div > iframe{
+            height: 75px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .form__lista{
+            cursor: pointer;
+            background-color: #FCCEA8;
+        }
+        .form__option{
+            background-color: #FCCEA8;
+        }
+        .form__etykieta--szersza{
+            width: 400px;
+        }
+        .form__linia--nizsza{
+            height: 40px;
+        }
+        .form__textarea{
+            max-width: 300px;
+            width: 300px;
+            height: 100px;
+            background-color: #FCCEA8;
+            float: right;
+            margin-bottom: 5px;
+        }

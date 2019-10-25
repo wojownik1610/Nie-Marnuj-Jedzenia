@@ -1,0 +1,186 @@
+.hello{
+    color: aliceblue;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    padding: 25px 0;
+    background-color: mediumseagreen;    
+}
+.ustawienia__logo{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.ustawienia__lista{
+    width: 100%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin: 0;
+}
+.ustawienia__opcja{
+    box-sizing: border-box;
+    line-height: 30px;
+    list-style-type: none;
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    border-left: 3px dotted white;
+    margin: 4px 0;
+    transition-duration: 300ms;
+    cursor: pointer;
+    color: white;
+    min-height: 60px;
+}
+
+.ustawienia__opcja:last-child{
+    border-right: 3px dotted white;    
+}
+.ustawienia__opcja:hover{
+    background-color: #a61819;
+    color: aliceblue;
+    font-weight: 700;
+}
+.ustawienia__kontener{
+    margin-top: 25px;
+    position: relative;
+    width: 500px;
+  margin: 50px auto 0;
+    height: 410px;
+}
+.ustawienia__alert{
+    text-align: center;
+    color: red;
+    line-height: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.ustawienia__alert--none{
+    opacity: 0;
+}
+.ustawienia__alertPHP{
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: red;
+    text-align: center;
+    line-height: 30px;
+}
+.zmianaHasla__kontener, .zmianaNazwy__kontener, .delete__kontener{
+    display: none;
+    min-width: 300px;
+
+}
+.ust--block{
+    display: block;
+}
+.oferty{
+    height: 655px;
+}
+.oferty__logo{
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.oferty__lista{
+    width: 100%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin: 0;
+}
+.oferty__opcja{
+    box-sizing: border-box;
+    line-height: 30px;
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-left: 3px dotted white;
+    margin: 4px 0;
+    transition-duration: 300ms;
+    cursor: pointer;
+    color: white;
+}
+.oferty__opcja--wybrany{
+    background-color: #b7292a;
+    color: black;
+    font-weight: 700;
+}
+.oferty__opcja:last-child{
+    border-right: 3px dotted white;    
+}
+.oferty__opcja:hover{
+    background-color: #a61819;
+    color: aliceblue;
+    font-weight: 700;
+}
+.oferty__kontener{
+    width: 500px;
+    padding-top: 25px;
+    position: relative;
+    margin: 30px auto 0;
+}
+.oferty__kontenerShow{
+    width: 104%;
+    max-height: 403px;
+    min-height: 403px;
+    overflow-x: auto;
+    margin: 0 -2%;
+}
+.form__pole--bgRed{
+    background-color: #fb9297;
+}
+.ustawienia__opcja--wybrany{
+    background-color: #b7292a;
+    color: black;
+    font-weight: 700;
+}
+
+.showOfert__table{
+    margin: 0 auto;
+    border-spacing: 0;
+    border: 2px solid black;
+}
+.showOfert__wiersz{
+    color: #d4dbdd;
+}
+.showOfert__wiersz:first-child{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+.showOfert__wiersz>td{
+    border-left: 1px dashed black;
+    border-bottom: 1px solid black;
+    padding: 1px 3px;
+}
+
+.showOfert__wiersz>td:first-child{
+    border-left: 0;
+}
+.showOfert__wiersz:last-child>td{
+    border-bottom: 0;
+}
+.showOfert__delete{
+    cursor: pointer;
+    font-weight: 700;
+    color: lightsalmon;
+    text-align: center;
+    transition-duration: 300ms
+}
+.showOfert__delete:hover{
+    color: white;
+    background-color: black;
+}
+.form__linia{
+  margin-right: 20%;
+  float: right;
+  }
+.jednalinia{
+   white-space:nowrap;
+  }
+
+

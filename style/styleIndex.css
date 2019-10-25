@@ -1,0 +1,42 @@
+.rejestr__logo{
+    text-align: center;
+    padding: 2% 0; 
+    font-size: 30px;
+    background-color: #77dd77;
+    border: 3px solid red;
+    color: white;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+.kafelekIndex{
+    border-radius: 10px;
+    min-height: 350px;
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    position: relative;
+    
+    -webkit-box-shadow: 10px 10px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 17px -1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 17px -1px rgba(0,0,0,0.75);
+}
+
+.kafelekIndex>p{
+   padding: 100px 0;
+    text-align: center;
+    
+}
+
+.bgBlue{ background-color: #aec6cf;}
+.bgOrange{ background-color: #ffb347;}
+.bgPurple{ background-color: #b19cd9;}
+.bgGrey{ background-color: #cfcfc4;}
+.bgGreen{ background-color: #AFC7D0;}
+.bgPink{ background-color: #ffd1dc;}
+.bgBrown{ background-color: #93765d;}
+
+.form__przycisk2{
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+}
